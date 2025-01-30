@@ -22,3 +22,27 @@ Clicking on a marker reveals:
 1. **Install Dependencies**:
    ```bash
    pip install pandas numpy folium scikit-learn matplotlib tabulate
+   ```
+
+2. **Run the Project**  
+
+- Cleans and organizes **raw NASA meteorite data** into a structured CSV file (**ordered by ID**).  
+- Generates an **interactive HTML map** that visualizes meteorite impact locations.  
+
+   #### **In terminal, run:**  
+   ```bash
+   python main.py
+   ```
+
+3. **View the Interactive Map**  
+After running the script, open the generated `meteor_map.html` file in your browser:  
+
+   #### **MacOS**  
+   ```bash
+   open meteor_map.html
+   ```
+
+   #### **Windows**
+   ```powershell
+   start meteor_map.html
+   ```
